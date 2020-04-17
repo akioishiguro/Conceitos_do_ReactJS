@@ -1,13 +1,24 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+*{
   margin: 0;
   padding: 0;
+  outline: 0;
   box-sizing: border-box;
 }
 
 body {
-  font-size: 14px;
+  font: 400 14px Roboto, sans-serif;
+  background: #f0f0f5;
+  -webkit-font-smoothing: antialiased;
 }
 
+#header {
+  font: 400 14px Gochi Hand, sans-serif;
+  color: #892828;
+  font-size: 20px;
+}
 div {
   width: 100%;
   margin: 20px;
@@ -23,7 +34,7 @@ div li + li {
 }
 
 button {
-  background: #7159c1;
+  background: linear-gradient(10deg,#b73535,#c63a3a, #ce5858, #dc8686);
   color: #fff;
   border: 0;
   padding: 10px 15px;
